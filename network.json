@@ -33,12 +33,16 @@
             "name": "data.csv"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "agupta22",
             "desc": "",
             "name": "clean.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "MergeArrest.R"
         }
     ],
-    "updated_at": "2018-10-04 16:48:31",
+    "updated_at": "2018-10-04 17:38:47",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
