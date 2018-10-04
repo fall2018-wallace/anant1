@@ -3,11 +3,11 @@ readStates <- function(states)
 {
     states <- states[-1, ]
     num.row <- nrow(states)
-    states <- states[-lastrow, ]
+    states <- states[-num.row, ]
     
-    states <- states[ , -1:-4]
-    
-    
+    states <- states[ ,-1:-4]
+    colnames(states) <- ("statename", "population", "populationover18", "percentover18")
+
     return(states)
 }
 
