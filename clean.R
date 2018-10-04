@@ -6,4 +6,5 @@ readStates <- function(states)
     states <- states[,-lastrow]
     states <- states[,-1:-4]
     colnames(states) <- ("statename","population","populationover18","percentover18")
+    return(states)
 }
