@@ -30,12 +30,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-04 16:45:32",
+    "updated_at": "2018-10-04 16:48:31",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
