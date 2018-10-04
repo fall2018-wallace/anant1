@@ -23,6 +23,17 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "State_data",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeArrest.R"
         }
     ],
     "nodes": [
@@ -43,6 +54,6 @@
             "name": "MergeArrest.R"
         }
     ],
-    "updated_at": "2018-10-04 17:38:47",
+    "updated_at": "2018-10-04 17:40:22",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
