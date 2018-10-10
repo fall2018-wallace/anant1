@@ -88,16 +88,6 @@
         {
             "ports": [
                 {
-                    "output": "z",
-                    "type": "png"
-                }
-            ],
-            "source": "MergeArrest.R",
-            "target": "percent_over_18_bar.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "Scatter_plot",
                     "type": "png"
                 }
@@ -114,6 +104,16 @@
             ],
             "source": "MergeArrest.R",
             "target": "rotate_title_bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "percent_over_18_bar",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrest.R",
+            "target": "percent_over_18_bar.png"
         }
     ],
     "nodes": [
@@ -160,6 +160,6 @@
             "name": "Scatter_plot.png"
         }
     ],
-    "updated_at": "2018-10-10 21:27:10",
+    "updated_at": "2018-10-10 21:27:19",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
