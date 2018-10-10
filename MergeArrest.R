@@ -12,8 +12,11 @@ colnames(merged_data) <- c("Statename","Murder","Assault","UrbanPop", "Rape","po
 merged_data
 library(ggplot2)
 
-plot1 <- ggplot(merged_data,aes(x=population))+geom_histogram(bins=50,color="red", fill="blue")
-plot1
+plot_population <- ggplot(merged_data,aes(x=population))+geom_histogram(bins=50,color="red", fill="blue")
+plot_population
+
+plot_murder <- ggplot(merged_data,aes(x=Murder))+geom_histogram(bins=50,color="black", fill="blue")
+plot_murder 
 
 
 
