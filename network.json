@@ -108,7 +108,7 @@
         {
             "ports": [
                 {
-                    "output": "x",
+                    "output": "Scatter_plot",
                     "type": "png"
                 }
             ],
@@ -160,6 +160,6 @@
             "name": "x.png"
         }
     ],
-    "updated_at": "2018-10-10 21:11:43",
+    "updated_at": "2018-10-10 21:15:34",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
