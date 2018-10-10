@@ -113,7 +113,7 @@
                 }
             ],
             "source": "MergeArrest.R",
-            "target": "x.png"
+            "target": "Scatter_plot.png"
         }
     ],
     "nodes": [
@@ -157,9 +157,9 @@
             "name": "z.png"
         },
         {
-            "name": "x.png"
+            "name": "Scatter_plot.png"
         }
     ],
-    "updated_at": "2018-10-10 21:15:34",
+    "updated_at": "2018-10-10 21:15:44",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
