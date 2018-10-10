@@ -1,3 +1,3 @@
 
-USArrest
+arrest <- USArrest
 
