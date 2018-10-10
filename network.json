@@ -34,6 +34,16 @@
             ],
             "source": "clean.R",
             "target": "MergeArrest.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot1",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrest.R",
+            "target": "plot1.png"
         }
     ],
     "nodes": [
@@ -59,6 +69,6 @@
             "name": "plot1.png"
         }
     ],
-    "updated_at": "2018-10-10 20:46:20",
+    "updated_at": "2018-10-10 20:46:53",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
