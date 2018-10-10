@@ -13,7 +13,7 @@ merged_data
 library(ggplot2)
 
 plot1 <- ggplot(merged_data,aes(x=population))+geom_histogram(bins=50,color="red", fill="blue")
-plot
+plot1
 ggplot(merged_data,aes(x=Murder))+geom_histogram(bins=50,color="orange", fill="black")
 
 ggplot(merged_data,aes(x=factor(0),y=population))+geom_boxplot()
