@@ -16,4 +16,5 @@ cleanCensus <- readStates(raw_data)
 clean_data <- cleanCensus
 
 states <- raw_data
+raw_data
 states[-1, ]
