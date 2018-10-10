@@ -6,3 +6,4 @@ arrest <- USArrests
 arrest
 colnames(arrest) <- c("statename")
 arrest
+merged_data <- merge(census,arrest)
