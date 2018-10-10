@@ -21,4 +21,6 @@ plot_murder
 box_population <- ggplot(merged_data,aes(x=factor(0),y=population))+geom_boxplot()
 box_murder <- ggplot(merged_data,aes(x=factor(0),y=Murder))+geom_boxplot()
 
-
+new=merged_data$population/merged_data$Murder
+no_of_murders=new/100000
+no_of_murders
