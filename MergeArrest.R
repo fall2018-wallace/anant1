@@ -1,3 +1,4 @@
 
 arrest <- USArrest
+arrest
 
