@@ -15,3 +15,5 @@ library(ggplot2)
 ggplot(merged_data,aes(x=population))+geom_histogram(bins=50,color="red", fill="blue")
 window()
 
+ggplot(merged_data,aes(x=Murder))+geom_histogram(bins=50,color="orange", fill="black")
+
