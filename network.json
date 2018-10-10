@@ -80,8 +80,11 @@
         },
         {
             "name": "murder.png"
+        },
+        {
+            "name": "box_population.png"
         }
     ],
-    "updated_at": "2018-10-10 20:57:29",
+    "updated_at": "2018-10-10 20:58:58",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
