@@ -1,0 +1,64 @@
+{
+    "collaborators": [
+        "agupta22"
+    ],
+    "created_at": "2018-10-04 16:41:52",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "State_data",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeArrest.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "agupta22",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agupta22",
+            "desc": "",
+            "name": "MergeArrest.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot1.png"
+        }
+    ],
+    "updated_at": "2018-10-10 20:46:20",
+    "url": "https://github.com/fall2018-wallace/anant1"
+}
