@@ -43,7 +43,7 @@
                 }
             ],
             "source": "MergeArrest.R",
-            "target": "plot1.png"
+            "target": "population.png"
         }
     ],
     "nodes": [
@@ -66,9 +66,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "plot1.png"
+            "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-10 20:48:32",
+    "updated_at": "2018-10-10 20:52:47",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
