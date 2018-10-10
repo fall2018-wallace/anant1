@@ -1,5 +1,6 @@
 
 census <- State_data
+census
 arrest <- USArrest
 arrest
 
