@@ -13,5 +13,5 @@ merged_data
 library(ggplot2)
 
 ggplot(merged_data,aes(x=population))+geom_histogram(bins=50,color="black", fill="black")
-windows()
+window()
 
