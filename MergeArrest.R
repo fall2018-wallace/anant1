@@ -30,4 +30,4 @@ y <- ggplot(merged_data,aes(x=reorder(Statename, no_of_murders),y=no_of_murders)
 z <- ggplot(merged_data,aes(x=reorder(Statename, no_of_murders),y=no_of_murders))+geom_col(aes(fill=percentover18))+theme(axis.text.x=element_text(angle=90, hjust=1))+ggtitle("Total murders")
 
 
-Scatter_plot <- ggplot(merged_data, aes(x=population, y=percentover18)) + geom_point(aes(size=MurderRate, color="Murder Rate"))
+Scatter_plot <- ggplot(merged_data, aes(x=population, y=percentover18)) + geom_point(aes(size=Murder, color="Murder Rate"))
