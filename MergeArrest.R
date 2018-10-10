@@ -4,4 +4,4 @@ census
 arrest <- USArrests
 arrest
 
-arrests=cbind(rownames(arrests),arrests)
+arrest=cbind(rownames(arrest),arrest)
