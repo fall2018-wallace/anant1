@@ -54,6 +54,16 @@
             ],
             "source": "MergeArrest.R",
             "target": "population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "box_population",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrest.R",
+            "target": "box_population.png"
         }
     ],
     "nodes": [
@@ -88,6 +98,6 @@
             "name": "box_murder.png"
         }
     ],
-    "updated_at": "2018-10-10 20:59:07",
+    "updated_at": "2018-10-10 20:59:19",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
