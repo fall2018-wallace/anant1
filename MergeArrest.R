@@ -10,7 +10,7 @@ merged_data <- merge(census,arrest)
 merged_data
 colnames(merged_data) <- c("Statename","Murder","Assault","UrbanPop", "Rape","population","popover18", "percentover18")
 merged_data
-library(ggplot)
+library(ggplot2)
 
 ggplot(merged_data,aes(x=population))+geom_histogram(bins=50,color="black", fill="black")
 
