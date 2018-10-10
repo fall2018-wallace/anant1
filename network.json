@@ -103,7 +103,7 @@
                 }
             ],
             "source": "MergeArrest.R",
-            "target": "rotate_title_bar.png"
+            "target": "rotate_title_bar_sorted.png"
         },
         {
             "ports": [
@@ -151,7 +151,7 @@
             "name": "per_state_murder.png"
         },
         {
-            "name": "rotate_title_bar.png"
+            "name": "rotate_title_bar_sorted.png"
         },
         {
             "name": "percent_over_18_bar.png"
@@ -160,6 +160,6 @@
             "name": "Scatter_plot.png"
         }
     ],
-    "updated_at": "2018-10-10 21:27:19",
+    "updated_at": "2018-10-10 21:28:52",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
