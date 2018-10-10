@@ -1,8 +1,7 @@
 
 census <- State_data
 census
-arrest <- USArrest
+arrest <- USArrests
 arrest
 
-mergeddf <- merge(arrest,census)
 
