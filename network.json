@@ -124,6 +124,16 @@
             ],
             "source": "MergeArrest.R",
             "target": "rotate_title_bar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot_rape",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrest.R",
+            "target": "Rape.png"
         }
     ],
     "nodes": [
@@ -182,6 +192,6 @@
             "name": "UrbanPop.png"
         }
     ],
-    "updated_at": "2018-10-11 04:51:13",
+    "updated_at": "2018-10-11 04:51:35",
     "url": "https://github.com/fall2018-wallace/anant1"
 }
