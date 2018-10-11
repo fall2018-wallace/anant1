@@ -28,10 +28,7 @@ box_murder <- ggplot(merged_data,aes(x=factor(0),y=Murder))+geom_boxplot()
 ####################################################################################
 # Histograms are better than boxplot for visualization because the data set we have is very big
 # and wide variance exists among the observed frequencies. With BoxPlots the values average one another
-
-
-
-
+# out.
 ####################################################################################
 
 #7) Calculate the number of murders per state
