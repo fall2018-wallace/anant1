@@ -34,7 +34,8 @@ per_state_murder <- ggplot(merged_data,aes(x=Statename,y=no_of_murders))+geom_co
 rotate_title_bar <- ggplot(merged_data,aes(x=Statename,y=no_of_murders))+geom_col()+theme(axis.text.x=element_text(angle=90, hjust=1))+ggtitle("Total Murders")
 #10) Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
 rotate_title_bar_sorted <- ggplot(merged_data,aes(x=reorder(Statename, no_of_murders),y=no_of_murders))+geom_col()+theme(axis.text.x=element_text(angle=90, hjust=1))+ggtitle("Total murders")
+#11) Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
 percent_over_18_bar <- ggplot(merged_data,aes(x=reorder(Statename, no_of_murders),y=no_of_murders))+geom_col(aes(fill=percentover18))+theme(axis.text.x=element_text(angle=90, hjust=1))+ggtitle("Total Murders")
 
-
+#12) Generate a scatter plot – have population on the X axis, the percent over 18 on the y axis, and the size & color represent the murder rate
 Scatter_plot <- ggplot(merged_data, aes(x=population, y=percentover18)) + geom_point(aes(size=Murder, color="Murder Rate"))
