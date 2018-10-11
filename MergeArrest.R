@@ -1,6 +1,7 @@
 
 census <- State_data
 census
+#1)	Copy the USArrests dataset into a local variable (similar to HW 2)
 arrest <- USArrests
 arrest=cbind(rownames(arrest),arrest)
 arrest
