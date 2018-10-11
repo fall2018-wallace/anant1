@@ -22,6 +22,8 @@ plot_murder
 
 plot_assult <- 
 
+plot_rape <--
+
 #5) Create a boxplot for the population, and a different boxplot for the murder rate.
 box_population <- ggplot(merged_data,aes(x=factor(0),y=population))+geom_boxplot()
 box_murder <- ggplot(merged_data,aes(x=factor(0),y=Murder))+geom_boxplot()
