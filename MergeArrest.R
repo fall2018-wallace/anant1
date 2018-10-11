@@ -12,14 +12,14 @@ merged_data <- merge(census,arrest)
 merged_data
 colnames(merged_data) <- c("Statename","Murder","Assault","UrbanPop", "Rape","population","popover18", "percentover18")
 merged_data
+#3) Create a histogram using GGPLOT for the population and a different histogram for the murder rate
 library(ggplot2)
-
 plot_population <- ggplot(merged_data,aes(x=population))+geom_histogram(bins=50,color="red", fill="blue")
 plot_population
 
 plot_murder <- ggplot(merged_data,aes(x=Murder))+geom_histogram(bins=50,color="black", fill="black")
 plot_murder 
-
+#4) Create a boxplot for the population, and a different boxplot for the murder rate.
 box_population <- ggplot(merged_data,aes(x=factor(0),y=population))+geom_boxplot()
 box_murder <- ggplot(merged_data,aes(x=factor(0),y=Murder))+geom_boxplot()
 
