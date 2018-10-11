@@ -22,7 +22,7 @@ plot_murder
 
 plot_assult <- ggplot(merged_data,aes(x=Assault))+geom_histogram(bins=50,color="black", fill="orange")
 
-plot_rape <- ggplot(merged_data,aes(x=Rape))+geom_histogram(bins=50,color="black", fill="yellow")
+plot_rape <- ggplot(merged_data,aes(x=Rape))+geom_histogram(bins=7,color="black", fill="yellow")
 
 plot_urbanpop <- ggplot(merged_data,aes(x=UrbanPop))+geom_histogram(bins=50,color="black", fill="green")
 
