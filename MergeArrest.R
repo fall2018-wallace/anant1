@@ -19,9 +19,19 @@ plot_population
 
 plot_murder <- ggplot(merged_data,aes(x=Murder))+geom_histogram(bins=50,color="black", fill="black")
 plot_murder 
+
 #5) Create a boxplot for the population, and a different boxplot for the murder rate.
 box_population <- ggplot(merged_data,aes(x=factor(0),y=population))+geom_boxplot()
 box_murder <- ggplot(merged_data,aes(x=factor(0),y=Murder))+geom_boxplot()
+
+#6)Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
+####################################################################################
+# Histograms are better than boxplot for visualization because the data set we have is very big
+
+
+
+
+####################################################################################
 
 #7) Calculate the number of murders per state
 new=merged_data$population*merged_data$Murder
