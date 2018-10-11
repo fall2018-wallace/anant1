@@ -27,6 +27,7 @@ box_murder <- ggplot(merged_data,aes(x=factor(0),y=Murder))+geom_boxplot()
 #6)Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
 ####################################################################################
 # Histograms are better than boxplot for visualization because the data set we have is very big
+# and wide variance exists among the observed frequencies. With BoxPlots the values average one another
 
 
 
